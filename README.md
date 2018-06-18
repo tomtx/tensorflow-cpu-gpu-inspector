@@ -1,2 +1,2 @@
 # TensorFlow Installation Check
-> Checks the Python architecture, path, and version.
+> This Python script checks the TensorFlow installation and functionality of available CPU/GPU devices.
