@@ -1,4 +1,4 @@
-# TensorFlow Installation Check
+# Check of TensorFlow CPU/GPU Installations
 > This Python script checks the TensorFlow installation & functionality of available CPU/GPU devices via basic mathematical operations.
 
 ## Instructions
