@@ -1,2 +1,2 @@
-# python-system-check
-Checks the Python architecture, path, and version.
+# TensorFlow Installation Check
+> Checks the Python architecture, path, and version.
