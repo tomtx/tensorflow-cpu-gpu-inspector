@@ -6,3 +6,7 @@ Run the *main.py* script with the following command (with an activated TensorFlo
 ```
 python main.py
 ```
+
+## Requirements
+* Python 3.6+
+* TensorFlow 1.8+
