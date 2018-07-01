@@ -9,4 +9,4 @@ python main.py
 
 ## Requirements
 * Python 3.6+
-* TensorFlow 1.6+
+* TensorFlow 1.6+ (any CPU or GPU installations)
