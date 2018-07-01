@@ -69,7 +69,7 @@ def main():
     print("start: " + str(datetime.now()))
     # verify TF installation
     available_devices = verify_tf_installation()
-    # test GPU computations
+    # test CPU/GPU computations
     test_cpu_gpu_computations(available_devices)
     print("\nend: " + str(datetime.now()))
     print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++")
