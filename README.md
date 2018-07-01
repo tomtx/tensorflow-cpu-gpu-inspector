@@ -4,7 +4,7 @@
 ## Instructions
 Run the *main.py* script with the following command (with an activated TensorFlow environment).
 ```
-python tf_inspector.py
+python inspector.py
 ```
 
 ## Requirements
