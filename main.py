@@ -46,9 +46,9 @@ def test_cpu_gpu_computations(count_cpu, count_gpu):
         print("\nCPU")
         # - build a graph
         with tf.device('/cpu:0'):
-            # - create a 2-D tensor with shape [2, 3]
+            # - create a 2-D tensor of [2, 3] shape
             a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a')
-            # - create a 2-D tensor with shape [3, 2]
+            # - create a 2-D tensor of [3, 2] shape
             b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b')
             # - perform a matrix product of those two tensors
             c = tf.matmul(a, b)
@@ -64,9 +64,9 @@ def test_cpu_gpu_computations(count_cpu, count_gpu):
         print("\nGPU")
         # - build a graph
         with tf.device('/gpu:0'):
-            # - create a 2-D tensor with shape [2, 3]
+            # - create a 2-D tensor of [2, 3] shape
             a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a')
-            # - create a 2-D tensor with shape [3, 2]
+            # - create a 2-D tensor of [3, 2] shape
             b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b')
             # - perform a matrix product of those two tensors
             c = tf.matmul(a, b)
