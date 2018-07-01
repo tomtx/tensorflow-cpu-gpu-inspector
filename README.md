@@ -1,4 +1,4 @@
-# Simple Computational Model for TensorFlow CPU/GPU Inspection
+# Computational Model for Inspecting TensorFlow CPU/GPU Installation
 > This Python script checks the TensorFlow installation & inspects its functionality on available CPU/GPU devices via basic mathematical operations.
 
 ## Instructions
