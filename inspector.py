@@ -57,6 +57,11 @@ def test_cpu_gpu_computations(available_devices):
         with tf.Session(config=tf.ConfigProto(log_device_placement=True)) as sess:
             # - run the operation (evaluate the tensor c)
             result = sess.run(c)
+            print("Tensor A")
+            print(a.eval())
+            print("Tensor B")
+            print(b.eval())
+            print("Matrix Product of Tensors A & B")
             print(result)
     print("... matrix operations has been completed")
     print("++++++++++++++++++++++++++++++")
