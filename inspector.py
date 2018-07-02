@@ -67,7 +67,7 @@ def main():
     print("+++ Simple CPU/GPU Computation Test with TensorFlow +++")
     print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++")
     print("start: " + str(datetime.now()))
-    # verify TF installation
+    # verify TensorFlow installation
     available_devices = verify_tf_installation()
     # test CPU/GPU computations
     test_cpu_gpu_computations(available_devices)
