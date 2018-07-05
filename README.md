@@ -1,4 +1,4 @@
-# Computational Model for Inspecting TensorFlow CPU/GPU Installations
+# TensorFlow Inspector
 > A Python tool for checking TensorFlow (TF) installations & inspecting TF functionalities on available CPU/GPU devices via basic mathematical operations. Such operations are represented with a TF *dataflow graph*. Then, graph parts are run by TF *session* across a set of available CPU/GPU devices.
 
 ## Instructions
