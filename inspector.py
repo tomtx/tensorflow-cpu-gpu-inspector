@@ -1,4 +1,5 @@
 from datetime import datetime
+from time import time
 
 import tensorflow as tf
 from tensorflow.python.client import device_lib
@@ -56,13 +57,18 @@ def test_cpu_gpu_computations(available_devices):
         # - launch the graph in a session (use the session as a context manager)
         with tf.Session(config=tf.ConfigProto(log_device_placement=True)) as sess:
             # - run the operation (evaluate the tensor c)
+            start_time = time()
             result = sess.run(c)
+            end_time = time()
+            elapsed_time = end_time - start_time
             print("Tensor A")
             print(a.eval())
             print("Tensor B")
             print(b.eval())
             print("Matrix Product of Tensors A & B")
             print(result)
+            print("... time to finish the workload: %f s" % elapsed_time)
+
     print("... matrix operations has been completed")
     print("++++++++++++++++++++++++++++++")
 
