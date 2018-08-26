@@ -8,5 +8,6 @@ python inspector.py
 ```
 
 ## Requirements
+Install the following packages for your Python environment.
 * Python 3.6+
 * TensorFlow 1.6+ (any CPU or GPU installations)
